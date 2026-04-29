@@ -1,0 +1,20 @@
+.header-wrapper {
+  display: flex;
+  margin: 12px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 10px 15px;
+}
+
+.social-wrapper img {
+  cursor: pointer;
+}
+
+.social-wrapper img:hover {
+  transform: scale(1.1);
+}

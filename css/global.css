@@ -1,59 +1,66 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url(/fonts/Poppins-ExtraBold.ttf);
-    font-style: normal;
-    font-display: swap;
-    font-weight: 800;
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-ExtraBold.ttf);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url(/fonts/Poppins-Italic.ttf);
-    font-style: italic;
-    font-display: swap;
-    font-weight: 400;
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Italic.ttf);
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url(/fonts/Poppins-Medium.ttf);
-    font-style: normal;
-    font-display: swap;
-    font-weight: 500;
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Medium.ttf);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url(/fonts/Poppins-Regular.ttf);
-    font-style: normal;
-    font-display: swap;
-    font-weight: 400;
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Regular.ttf);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url(/fonts/Poppins-SemiBold.ttf);
-    font-style: normal;
-    font-display: swap;
-    font-weight: 600;
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-SemiBold.ttf);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
 }
 
 :root {
-    --background-primary-color: #FBF8CC;
+  --background-primary-color: #fbf8cc;
 
-    --header-primary-color: #474306;
+  --header-primary-color: #474306;
 
-    --text-primary-color: #03045E;
-    --text-secundary-color: #F7F197;
-    --text-terciary-color: #474306;
+  --text-primary-color: #03045e;
+  --text-secundary-color: #f7f197;
+  --text-terciary-color: #474306;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-primary-color);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #474306;
 }
