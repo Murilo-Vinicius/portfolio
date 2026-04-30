@@ -30,14 +30,16 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dashboard-link:hover {
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 
 .dashboard-btn-wrapper {
-  margin-top: 35px;
   border: 1px solid #474306;
   width: 160px;
   height: 60px;
